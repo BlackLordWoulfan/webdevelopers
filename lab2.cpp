@@ -86,7 +86,6 @@ bool Stack<T>::add(const T value)
 		return false; 
 	head++;
 	MyStack[head] = value;
-
 	return true; 
 }
 
@@ -99,7 +98,6 @@ bool Stack<T>::dell()
 		MyStack[head] = 0;
 		head--;
 	}
-
 	return true;
 }
 
